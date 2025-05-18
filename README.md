@@ -7,9 +7,9 @@ Ce script Python envoie automatiquement tous les fichiers d’un dossier local d
 
 ## 🧰 Technologies utilisées
 
-- Python 3.13
-- Boto3
-- AWS CLI configuré
+- Python 3.13  
+- Boto3  
+- AWS CLI  
 - Amazon S3
 
 ---
@@ -23,7 +23,28 @@ Ce script Python envoie automatiquement tous les fichiers d’un dossier local d
 
 ---
 
-## ▶️ Lancer le script
+## 🔐 Prérequis
+
+- Avoir un compte AWS  
+- Avoir installé et configuré AWS CLI (`aws configure`)  
+- Avoir créé un bucket S3 (`cedric-s3-demo`)  
+- Avoir installé la bibliothèque Boto3 :
+```bash
+pip install boto3
+```
+
+---
+
+## ▶️ Lancement
 
 ```bash
 python upload_folder_to_s3.py
+```
+
+---
+
+## ✍️ Auteur
+
+**Cédric Haegele**  
+🔗 [LinkedIn](https://www.linkedin.com/in/cedric-haegele)  
+📂 [GitHub](https://github.com/CedricHaegele)
